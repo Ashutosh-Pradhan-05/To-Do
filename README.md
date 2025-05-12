@@ -33,81 +33,63 @@ The To-Do List Application is a Single Page Application (SPA) designed to help u
   - Create, view, edit, and delete appointments.
   - Detailed appointment information including title, description, date, and time.
 - **Responsive Design**
-  ---------------------
   - Mobile-friendly interface using Bootstrap.
 - **Persistent Data Storage**
-  ---------------------------
   - MongoDB integration for reliable data management.
 - **Interactive UI**
-  ------------------
   - Dynamic content loading with jQuery and AJAX.
 - **Session Management**
-  ----------------------
   - User sessions managed through cookies.
 
 ## Tech Stack
-_____________
-
 - **Frontend**
-  ------------
   - HTML
   - CSS
   - Bootstrap
   - JavaScript (jQuery)
     
 - **Backend**
-  -----------
   - Node.js
   - Express.js
   - MongoDB
     
 - **Other Tools**
-  ---------------
   - Bootstrap Icons
   - jQuery Cookie
 
 
 
 ## Installation
-_______________
 
 - **Node.js**: Ensure you have Node.js installed. You can download it [here](https://nodejs.org/).
 - **MongoDB**: Install and run MongoDB. Instructions can be found [here](https://www.mongodb.com/docs/manual/installation/).
 
 
 ## Usage
-________
 
 1. **Register a New Account**
-   --------------------------
    - Click on the **Create Account** button.
    - Fill in the registration form with your details.
    - Ensure the User ID is unique and the mobile number is exactly 10 digits.
    - Submit to create your account.
 
 2. **Login**
-   ---------
    - Click on the **Signin** button.
    - Enter your User ID and Password.
    - Upon successful login, you'll be redirected to your dashboard.
 
 3. **Manage Appointments**
-   -----------------------
    - **Add Appointment**: Click on the **Add** button to create a new appointment.
    - **Edit Appointment**: Click the **Edit** button on an existing appointment to modify its details.
    - **Delete Appointment**: Click the **Delete** button to remove an appointment.
 
 4. **Sign Out**
-   ------------
    - Click on the **Signout** button to end your session.
 
 ## API Endpoints
-________________
 
 ### Users
-_________
 - **GET /users**
-  --------------
 
   Retrieve all registered users.
 
@@ -126,11 +108,9 @@ _________
   ```
 
 - **POST /register-user**
-  -----------------------
   Register a new user.
 
   **Request Body:**
-  -----------------
 
   ```json
   {
@@ -143,18 +123,14 @@ _________
   ```
 
 ### Appointments
-________________
 
 - **GET /get-appointments/:userid**
-  ---------------------------------
   Retrieve all appointments for a specific user.
 
   **Parameters:**
-  ---------------
   - `userid`: User ID.
 
   **Response:**
-  -------------
 
   ```json
   [
@@ -170,15 +146,12 @@ ________________
   ```
 
 - **GET /get-appointment/:id**
-  ----------------------------
   Retrieve a specific appointment by ID.
 
   **Parameters:**
-  ---------------
   - `id`: Appointment ID.
 
   **Response:**
-  -------------
   ```json
   {
     "AppointmentId": 1,
@@ -191,11 +164,9 @@ ________________
   ```
 
 - **POST /add-appointment**
-  -------------------------
   Add a new appointment.
 
   **Request Body:**
-  -----------------
 
   ```json
   {
@@ -209,15 +180,12 @@ ________________
   ```
 
 - **PUT /edit-appointment/:id**
-  -----------------------------
   Edit an existing appointment.
 
   **Parameters:**
-  ---------------
   - `id`: Appointment ID.
 
   **Request Body:**
-  -----------------
   ```json
   {
     "AppointmentId": 1,
@@ -230,15 +198,12 @@ ________________
   ```
 
 - **DELETE /delete-appointment/:id**
-  ----------------------------------
   Delete an appointment.
 
   **Parameters:**
-  ---------------
   - `id`: Appointment ID.
 
 ## Project Structure
-____________________
 
 todo-spa/
 ├── node_modules/
@@ -271,7 +236,6 @@ todo-spa/
 - **README.md**: Project documentation.
 
 ## Contact
-__________
 
 Developed by **Ashutosh Pradhan**.
 - **Email**: [contactwithashuind@gmail.com](mailto:contactwithashuind@gmail.com)
