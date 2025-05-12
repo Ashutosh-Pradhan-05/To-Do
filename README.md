@@ -246,4 +246,4 @@ Developed by **Ashutosh Pradhan**.
 Feel free to reach out for any queries or support!
 
 **Note**: Ensure MongoDB is running before starting the server. For any issues or bugs, please open an issue in the repository.
-### Thank You for visiting my Project.😊
+### Thank you for visiting my project.😊
