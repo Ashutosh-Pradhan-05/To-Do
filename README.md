@@ -1,7 +1,6 @@
 # To-Do List Application (SPA)
 
  To-Do App Banner
- ----------------
 
  
 ![to-do](https://github.com/user-attachments/assets/0818eddf-3cdc-4330-9652-5a7f3f194f89)
@@ -19,23 +18,18 @@
 - [Contact](#contact)
 
 ## Overview
-___________
 
 The To-Do List Application is a Single Page Application (SPA) designed to help users manage their tasks efficiently. Built with a modern tech stack, it offers user registration, authentication, and CRUD (Create, Read, Update, Delete) operations for managing appointments. The application ensures a seamless user experience with dynamic content loading and real-time updates without page reloads.
 
 ## Features
-___________
 
 - **User Registration & Authentication**
-  --------------------------------------
   - Secure user sign-up and login.
   - Password protection and user validation.
 - **Dashboard**
-  -------------
   - Personalized dashboard displaying user-specific appointments.
   - Real-time updates on appointment status.
 - **Appointment Management**
-  --------------------------
   - Create, view, edit, and delete appointments.
   - Detailed appointment information including title, description, date, and time.
 - **Responsive Design**
