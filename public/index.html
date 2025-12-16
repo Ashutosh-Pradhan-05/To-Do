@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do</title>
 
-    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../src/todo.css">
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="../src/todo.css" />
 
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="../node_modules/jquery.cookie/jquery.cookie.js"></script>
     <script src="../src/todo.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="shade">
-        <section>
-
-        </section>
+      <section></section>
     </div>
-    <footer class="text-center footer">
-        <div><span><img src="../public/images/1Profile-pic.jpg" width="45" height="45" alt=""></span> Designed with
-            <span class="bi bi-heart-fill text-danger"> </span> by <span class="fw-bold">Ashutosh Pradhan</span> &copy;
-            2025 | <span class="bi bi-envelope-fill"> contactwithashuind@gmail.com</span> | <span><a
-                    href="https://github.com/Ashutosh-Pradhan-05"> <span
-                        class="bi bi-github text-white fs-4 ms-3"></span></a> <a
-                    href="https://www.linkedin.com/in/ashutosh-pradhan05"> <span
-                        class="bi bi-linkedin text-white fs-4 ms-3"></span></a> <a href="https://x.com/Ashutoshtwitind">
-                    <span class="bi bi-twitter-x text-white fs-4 ms-3"></span></a> </span></span>
+    <footer class="footer text-center">
+      <div class="footer-content">
+        <div style="display: flex; gap: 1rem">
+          <img
+            src="../public/images/1Profile-pic.jpg"
+            alt="Profile"
+            class="footer-img"
+          />
+          <div class="footer-name">
+            <div>Designed & Developed by <strong>Ashutosh Pradhan</strong></div>
+            <div>&copy; 2026 All Rights Reserved.</div>
+          </div>
         </div>
-    </footer>
-</body>
+        <p class="footer-links">
+          <i class="bi bi-envelope-fill"></i>
+          <a href="mailto:contactwithashuind@gmail.com">
+            contactwithashuind@gmail.com
+          </a>
+        </p>
 
+        <div class="social-icons">
+          <a href="https://github.com/Ashutosh-Pradhan-05" aria-label="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ashutosh-pradhan05"
+            aria-label="LinkedIn"
+          >
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://x.com/Ashutoshtwitind" aria-label="Twitter X">
+            <i class="bi bi-twitter-x"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
