@@ -204,7 +204,7 @@ The To-Do List Application is a Single Page Application (SPA) designed to help u
   - `id`: Appointment ID.
 
 ## Project Structure
-
+```
 todo-spa/
 ├── node_modules/
 ├── public/
@@ -227,7 +227,7 @@ todo-spa/
 ├── package.json
 ├── package-lock.json
 └── README.md
-
+```
 
 - **public/**: Contains all static HTML files and images.
 - **src/**: Contains CSS and JavaScript files for frontend functionalities.
@@ -247,3 +247,4 @@ Feel free to reach out for any queries or support!
 
 **Note**: Ensure MongoDB is running before starting the server. For any issues or bugs, please open an issue in the repository.
 ### Thank you for visiting my project.😊
+
